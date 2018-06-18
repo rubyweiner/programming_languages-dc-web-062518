@@ -3,7 +3,7 @@ def reformat_languages(languages)
   languages.each do |style, language|
       language.each do |name, attributes|
         new_hash ||= attributes
-        
+        new_hash[:name]
       end
   end
 end
