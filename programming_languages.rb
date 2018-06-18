@@ -7,4 +7,15 @@ def reformat_languages(languages)
         new_hash[name][:style] << style
       end
   end
+  
+  languages = {
+  :oo => {
+    :ruby => {
+      :type => "interpreted"
+    },
+    :javascript => {
+      :type => "interpreted"
+    }
+  }
+}
 end
